@@ -1,0 +1,13 @@
+@import '../../../assests/scss/variables';
+
+.footer {
+  background-color: $gray;
+  position: sticky;
+  top: 100%;
+  &__text {
+    padding: 5px;
+  }
+  &__wrapper {
+    min-height: 10vh;
+  }
+}
